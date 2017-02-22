@@ -1,4 +1,5 @@
-//
+
+// REWRITE UPDATE USING SWIFT 3 SYNTAX
 //  ViewController.swift
 //  CoreDataSample2
 //
@@ -12,6 +13,7 @@ import CoreData
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var results: NSArray?
+    
     
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var surname: UITextField!
